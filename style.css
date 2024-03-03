@@ -77,7 +77,7 @@
         border: 1px solid #fff;
         border-radius: 5px;
         padding: .4rem .8rem;
-        transition: all .3ms ease-in-out;
+        transition: all .3s ease-in-out;
       }
 
       & .signin:hover {
@@ -127,8 +127,20 @@
 
       & a {
         font-size: 1.8rem;
+        display: inline-block;
         color: #fff;
         text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: .8rem 1.8rem;
+        margin-block-start: 2rem;
+        transition: all .3s ease-in-out;
+      }
+
+      & a:hover {
+        background-color: rgb(238, 70, 98);
+        transform: scale(1.1);
       }
     }
 
